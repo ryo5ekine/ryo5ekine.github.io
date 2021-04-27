@@ -5,7 +5,7 @@ COLORS
 ================================================ */
 :root {
     --offwhite: rgb(229,229,229);
-    --offblack: #1c1c1c;
+    --offblack: rgb(33,33,33);
 }
 
 
@@ -97,7 +97,7 @@ section  {
     justify-content: center;
 }
 .story p {
-    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+    text-shadow: 0px 0px 4px rgba(33, 33, 33, 0.3);
 }
 
 .bg-white p {
@@ -111,10 +111,10 @@ img {
 }
 
 .story img {
-    -webkit-filter:drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.3));
-    -moz-filter:drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.3));
-    -ms-filter:drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.3));
-    filter:drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.3));
+    -webkit-filter:drop-shadow(0px 0px 4px rgba(33, 33, 33, 0.3));
+    -moz-filter:drop-shadow(0px 0px 4px rgba(33, 33, 33, 0.3));
+    -ms-filter:drop-shadow(0px 0px 4px rgba(33, 33, 33, 0.3));
+    filter:drop-shadow(0px 0px 4px rgba(33, 33, 33, 0.3));
 }
 
 
@@ -207,6 +207,17 @@ last-story
 
 .last-story-description {
     height: 50vh;
+}
+
+.last-story-description p {
+    text-shadow: 0px 0px 4px rgba(229, 229, 229, 0.3);
+}
+
+.last-story-description img {
+    -webkit-filter:drop-shadow(0px 0px 4px rgba(229, 229, 229, 0.3));
+    -moz-filter:drop-shadow(0px 0px 4px rgba(229, 229, 229, 0.3));
+    -ms-filter:drop-shadow(0px 0px 4px rgba(229, 229, 229, 0.3));
+    filter:drop-shadow(0px 0px 4px rgba(229, 229, 229, 0.3));
 }
 
 #adjust-position {
