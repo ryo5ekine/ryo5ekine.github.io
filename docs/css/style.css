@@ -334,10 +334,17 @@ sns
     text-align: center;
     width: 2.5rem; /* Button width */
   }
+
+  .sns-links li a:visited::before {
+    background-color: #eee;
+    color: #333;
+  }
+
   .sns-links li a:hover::before {
     background-color: #333;
     color: #fff;
   }
+
   .sns-links li a[href*="youtube.com"]::before        { content: "\f16a"; }
   .sns-links li a[href*="instagram.com"]::before      { content: "\f16d"; }
   .sns-links li a[href*="twitter.com"]::before        { content: "\f099"; }
@@ -369,8 +376,8 @@ sns
 }
 
 #door-anime img {
-    height: 100vh;
-    width: auto;
+    height: auto;
+    width: 100vw;
     object-fit: cover;
     object-position: center center;
     }
