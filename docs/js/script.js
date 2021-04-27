@@ -14,28 +14,32 @@ jQuery(function(){
 
 /* スタート */
 
-//logoの表示
-// $(window).on('load',function(){
-//   $("#door-anime").delay(2000).fadeOut(1000);//ローディング画面を1.5秒（1500ms）待機してからフェードアウト
-// });
+let scroll = function(elem){
+  var winHeight = $(window).height();
+  var scrollTop = $(window).scrollTop();
+  var showClass = 'show';
+  var timing = 200; // 100pxコンテンツが見えたら次のif文がtrue
+  if (scrollTop >= contentsPOS - winHeight + timing){
+    $(elem).addClass(showClass);
+  } else {
+    $(elem).removeClass(showClass);
+  }
+}
 
-/* スクロール効果 */
+$(window).on('load',function(i,elem){
+$("#door-anime").delay(1000).fadeOut(500);
+scroll(elem);
+});
+
+
+//②スクロールエフェクト//
 
 $(function(){
-  $('.one').each(function(i, elem){
-      var contentsPOS = $(elem).offset().top;
-      $(window).on('load scroll resize', function(){
-          var winHeight = $(window).height();
-          var scrollTop = $(window).scrollTop();
-          var showClass = 'show';
-          var timing = 200; // 100pxコンテンツが見えたら次のif文がtrue
-          if (scrollTop >= contentsPOS - winHeight + timing){
-            $(elem).addClass(showClass);
-          } else {
-            $(elem).removeClass(showClass);
-          }
-      });
-  });
+$('.one').each(function(i, elem){
+$(window).on('scroll resize', function(){
+  scroll(elem);
+});
+});
 });
 
 

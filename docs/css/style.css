@@ -18,7 +18,7 @@ html {
 }
 body {
 	color: var(--offblack);
-	font-family: '游明朝','Yu Mincho','Hiragino Mincho Pro',serif;
+	font-family: yu-mincho-5go-kana, sans-serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -49,11 +49,11 @@ p {
 }
 
 .story-description {
-    margin-bottom: -35vh;
+    margin-bottom: -25vh;
 }
 
 .story-image {
-    margin-top: -35vh;
+    margin-top: -25vh;
 }
 
 .fadein {
@@ -86,6 +86,10 @@ section  {
     margin: 0 auto;
 }
 
+.story {
+    height: 80vh;
+}
+
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -114,17 +118,6 @@ img {
 }
 
 
-/*
-door-anime
-================================================ */
-
-#door-anime {
-    background: url(/img/merve_anime.webp) no-repeat;
-    width: 100vw;
-    height: 100vh;
-    background-size: cover;
-    background-position: center center;
-}
 
 
 /*
@@ -150,8 +143,11 @@ trailer-page
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 125vh;
-    margin-top: -25vh;
+    height: 155vh;
+}
+
+#trailer-page .wrapper {
+    margin-top: -45vh;
 }
 
 #trailer-page h2 {
@@ -369,6 +365,13 @@ sns
     transition: all 1.5s ease 0s;
     z-index: -1;
 }
+
+#door-anime img {
+    height: 100vh;
+    width: auto;
+    object-fit: cover;
+    object-position: center center;
+    }
 
 .show .bg {
     opacity: 1;
