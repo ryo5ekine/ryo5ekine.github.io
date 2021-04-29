@@ -71,7 +71,7 @@ COMMON
 /* Layout */
 .container {
     height: auto;
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,7 +82,7 @@ section  {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -265,7 +265,7 @@ author-page
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     position: relative;
 }
 .logo {
@@ -373,6 +373,7 @@ sns
     align-items: center;
     width: 100%;
 }
+
 .bg {
     position: fixed;
     top: 0;
@@ -387,11 +388,10 @@ sns
 }
 
 #door-anime img {
-    height: 100vh;
-    width: 100vw;
-    max-width: 100vw;
+    height: 100%;
+    width: 100%;
     object-fit: cover;
-    object-position: center center;
+    object-position: center;
     }
 
 .show .bg {
@@ -655,6 +655,10 @@ PC
 
     .story-4 .story-image {
         margin-top: 0;
+    }
+
+    #door-anime img {
+        max-width: none;
     }
     
 }
