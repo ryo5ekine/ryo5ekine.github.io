@@ -49,6 +49,9 @@ p {
     color: var(--offwhite);
 }
 
+.black-font {
+    color: var(--offblack);
+}
 .story-description {
     margin-bottom: -30vh;
 }
@@ -473,7 +476,6 @@ author-page
     font-family: highgate, sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: var(--offwhite);
     font-size: 0.6rem;
 }
 
@@ -850,9 +852,10 @@ PC
 }
 
 
-/* お問い合わせページ */
+/* お問い合わせページ 、THANKSページ*/
 
-.index-page { 
+.contact-page { 
+    height: auto;
     min-height: 100vh;
     background-image: url(/img/background-white.jpg);
     background-size: contain;
@@ -1048,20 +1051,24 @@ font-size: 18px;
     }
 }
 
-/* サンクスページ */
+.to-top {
+    position: absolute;
+    top: 90%;
+    font-weight: bolder;
+    text-decoration: underline;
+}
 
-.thanks-container {
+.thank-page {
     min-height: 100vh;
     background-image: url(/img/background-white.jpg);
     background-size: contain;
     color: var(--offblack);
     display: flex;
-
     justify-content: center;
     align-items: center;
 }
 
-.thanks-container .wrapper {
+.thanks-page .wrapper {
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -1069,45 +1076,45 @@ font-size: 18px;
     align-items: center;
 }
 
-.thanks-container h2 {
+.thanks-page h2 {
     font-weight: bold;
     font-style: normal;
     font-size: 1.8rem;
 }
 
 @media screen and (max-width: 480px) {
-    .thanks-container h2 {
+    .thanks-page h2 {
         font-size: 1.5rem
     }
 }
 
-.thanks-container p {
+.thanks-page p {
     margin-top: 5vh;
     font-size: 1.2rem;
 }
 
 @media screen and (max-width: 480px) {
-    .thanks-container p {
+    .thanks-page p {
         font-size: 1.0rem;
     }
 }
 
-.thanks-container p span {
+.thanks-page p span {
     font-size: 80%;
 }
 
-.thanks-container p span a {
+.thanks-page p span a {
     color: blue;
     text-decoration: underline;
 }
 
-.thanks-container img {
+.thanks-page img {
     width: 15vw;
     height: 15vh;
 }
 
 @media screen and (max-width: 480px) {
-    .thanks-container img  {
+    .thanks-page img  {
         width: 30vw;
         height: 10vh;
     }
