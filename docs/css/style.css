@@ -442,7 +442,7 @@ author-page
 }
 .author-logo img,
 .author-logo source {
-    width: 6vw;
+    width: 15vw;
     height: auto;
 }
 
@@ -478,6 +478,30 @@ author-page
     color: var(--offwhite);
     font-size: 0.6rem;
 }
+
+.contact a {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact a::before {
+    margin-right: 1rem;
+    -webkit-border-radius: 0.2rem;
+    border-radius: 0.2rem;
+    color: var(--offwhite);
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 2rem;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+ .contact a[href*="contact"]::before        { content: "\f0e0"; }
+
+
 /*
 sns
 ================================================ */
@@ -677,6 +701,8 @@ sns
     #title-page h1 {
         margin-top: 4vh;
     }
+
+    
 }
 
 /*
