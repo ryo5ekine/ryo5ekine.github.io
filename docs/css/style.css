@@ -149,6 +149,7 @@ source {
         align-items: center;
         z-index: 1;
     }
+
     @media screen and (min-width: 768px) {
         .header {
             right: 15px;
@@ -173,8 +174,6 @@ source {
         height: 40px;
         position: relative;
         z-index: 3;
-      background-color:transparent;
-      border:none;
       }
 
       @media screen and (min-width: 768px) {
@@ -224,7 +223,6 @@ source {
       .bar_bottom{
         bottom: 10px;
       }
-
 
       .burger-btn.close .bar_top{
         transform: translate(-50%,10px) rotate(45deg);
