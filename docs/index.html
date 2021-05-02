@@ -28,6 +28,29 @@
 </head>
 
 <body>
+    <header class="header">
+        <div class="nav-wrapper">
+          <nav class="header-nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#title-page">TOP</a></li>
+              <li class="nav-item"><a href="#trailer-page">TRAILER</a></li>
+              <li class="nav-item"><a href="#story-top">STORY</a></li>
+              <li class="nav-item"><a href="#author-page">AUTHOR</a></li>
+              <li class="nav-item"><a href="https://mervetrim.tk/contact">CONTACT</a></li>
+            </ul>
+          </nav>
+        </div>
+  
+        <div class="burger-btn">
+          <span class="bars">
+            <span class="bar bar_top"></span>
+            <span class="bar bar_mid"></span>
+            <span class="bar bar_bottom"></span>
+          </span>
+        </div>
+      
+    </header>
+
     <div class="container">
         <div class="one">
             <div class="bg _01"></div>
@@ -50,7 +73,7 @@
             </section>
             <section id="trailer-page">
                 <div class="wrapper">
-                    <h2 class="white-font">Trailer</h2>
+                    <h2 class="white-font">TRAILER</h2>
                     <video src="/img/string.mp4" poster="/img/string.jpg" autoplay playsinline loop muted></video>
                     <a class="white-font" href="https://www.youtube.com/watch?v=GQUOnO0CekU&t=2s" target="_blank" rel="noopener noreferrer">
                     YouTube
@@ -60,7 +83,7 @@
         </div>
         <div class="one flex-row">
             <div class="bg _02"></div>
-            <section class="story bg-white story-1 flex-1 narrow-section">
+            <section id="story-top" class="story bg-white story-1 flex-1 narrow-section">
                 <div class="wrapper story-description">
                     <p class="fadein">
                         路地で佇むその店は<br>
@@ -182,7 +205,7 @@
 
             <section id="author-page">
                 <div class="wrapper">
-                    <div class="logo">
+                    <div class="author-logo">
                         <!-- <img src="img/artist-pic.png"　alt="アーティストロゴ"> -->
                         <picture>
                             <source srcset="/img/artist-pic.webp" type="image/webp">                 
@@ -210,7 +233,6 @@
                 </div>
             </section>
         </div>
-        <div id="page-top"><i class="fa fa-chevron-up"></i></div>
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="js/modernizr-custom.js"></script>

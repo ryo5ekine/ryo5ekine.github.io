@@ -50,48 +50,20 @@
         </div>
       
     </header>
-    <div class="container index-page">
-        <h1>お問い合わせフォーム</h1>
-            <!-- class, action, methodを変更しないでください -->
-        <form class="formrun" action="https://form.run/api/v1/r/c78zhiocpxn85ezap3wc1vys" method="post">
-            <!-- ↓自由に要素を追加・編集することができます -->
-            <div class="form-item">
-                <label class="form-item-label">お名前<span class="smaller"> ※ペンネーム等も可</span></label>
-                <div class="input-group">
-                    <input class="form-item-input" name="お名前" type="text">
-                </div>
-            </div>
-        
-            <div class="form-item">
-                <label class="form-item-label"><span class="form-item-label-required">必須</span>メールアドレス</label>
-                <div class="input-group">
-                    <input class="form-item-input" name="メールアドレス" type="text" data-formrun-type="email" data-formrun-required>
-                    <div class="error-message" data-formrun-show-if-error="メールアドレス">※メールアドレスを正しく入力してください</div>
-                </div>
-            </div>
-        
-            <div class="form-item">
-                <label class="form-item-label isMsg"><span class="form-item-label-required">必須</span>お問い合わせ</label>
-                <div class="input-group">
-                    <textarea class="form-item-textarea" name="お問い合わせ" data-formrun-required></textarea>
-                    <div class="error-message" data-formrun-show-if-error="お問い合わせ">※お問い合わせ入力してください</div>
-                </div>
-            </div>
-        
-            <!-- ボット投稿をブロックするためのタグ -->
-            <div class="_formrun_gotcha">
-            <style media="screen">._formrun_gotcha {position:absolute!important;height:1px;width:1px;overflow:hidden;}</style>
-            <label for="_formrun_gotcha">If you are a human, ignore this field</label>
-            <input type="text" name="_formrun_gotcha" id="_formrun_gotcha" tabindex="-1">
-            </div>
-        
-            <button class="form-btn" type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">送信</button>
-        </form>
+    <div class="container thanks-container">
+        <div class="wrapper">
+            <img src="/img/mail-completed.svg" alt="送信完了">
+            <h2>送信完了</h2>
+            <p> お問い合わせありがとうございす。<br>
+                ご記載のメールアドレスに返信致します。<br>
+                <br>
+                <span>(１週間以上経っても返信のない方は、
+                     <a href="meilto:00a3af&#64;gmail.com">00a3af&#64;gmail.com</a> までご連絡ください。)</span>
+            </p>
+        </div>
+            
 
-    <script src="https://sdk.form.run/js/v2/formrun.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="js/modernizr-custom.js"></script>
-    <script src="js/script.js"></script>
-</div>
+
+    </div>
 </body>
 </html>

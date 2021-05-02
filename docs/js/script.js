@@ -12,6 +12,13 @@ jQuery(function(){
   });
 });
 
+// ヘッダーメニュー//
+$('.burger-btn').on('click',function(){//.btn_triggerをクリックすると
+  $('.burger-btn').toggleClass('close');//.btn_triggerにcloseクラスを付与(ボタンのアニメーション)
+  $('.nav-wrapper').fadeToggle(500);//.nav-wrapperが0.5秒でフェードイン(メニューのフェードイン)
+  $('body').toggleClass('noscroll');//bodyにnoscrollクラスを付与(スクロールを固定)
+ });
+
 //ローディングアニメーション//
 
 // $(window).on('load',function(){
@@ -37,29 +44,3 @@ $(function(){
       });
   });
 });
-
-
-/*　トップに戻る */
-
-$(function(){
-// TOPに戻るボタン
-var topBtn = $('#page-top');
-topBtn.hide();
-//スクロールが100に達したらボタン表示
-$(window).scroll(function () {
-var w = $(window).width();
-if ($(this).scrollTop() > 100) {
-topBtn.fadeIn();
-} else {
-topBtn.fadeOut();
-}
-});
-//スムーススクロールでページトップへ
-topBtn.click(function () {
-$('body,html').animate({
-scrollTop: 0
-}, 500);
-return false;
-});
-});
-
