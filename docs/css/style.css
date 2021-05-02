@@ -469,7 +469,7 @@ author-page
 
 .credit {
     position: absolute;
-    top: 92%;
+    bottom: 2%;
 }
 
 .credit-font {
@@ -1052,8 +1052,8 @@ font-size: 18px;
 }
 
 .to-top {
-    position: absolute;
-    top: 90%;
+    display: inline-block;
+    margin-bottom: 10vh;
     font-weight: bolder;
     text-decoration: underline;
 }
