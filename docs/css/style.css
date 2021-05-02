@@ -476,7 +476,7 @@ author-page
     font-family: highgate, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 0.6rem;
+    font-size: 0.6dyrem;
 }
 
 .contact a {
@@ -1053,12 +1053,13 @@ font-size: 18px;
 
 .to-top {
     display: inline-block;
+    margin-top: 10vh;
     margin-bottom: 10vh;
     font-weight: bolder;
     text-decoration: underline;
 }
 
-.thank-page {
+.thanks-page {
     min-height: 100vh;
     background-image: url(/img/background-white.jpg);
     background-size: contain;
@@ -1083,38 +1084,38 @@ font-size: 18px;
 }
 
 @media screen and (max-width: 480px) {
-    .thanks-page h2 {
+    .thanks-page .wrapper h2 {
         font-size: 1.5rem
     }
 }
 
-.thanks-page p {
+.thanks-page .wrapper p {
     margin-top: 5vh;
     font-size: 1.2rem;
 }
 
 @media screen and (max-width: 480px) {
-    .thanks-page p {
+    .thanks-page .wrapper p {
         font-size: 1.0rem;
     }
 }
 
-.thanks-page p span {
+.thanks-page .wrapper p span {
     font-size: 80%;
 }
 
-.thanks-page p span a {
+.thanks-page .wrapper p span a {
     color: blue;
     text-decoration: underline;
 }
 
-.thanks-page img {
+.thanks-page .wrapper img {
     width: 15vw;
     height: 15vh;
 }
 
 @media screen and (max-width: 480px) {
-    .thanks-page img  {
+    .thanks-page .wrapper img  {
         width: 30vw;
         height: 10vh;
     }
