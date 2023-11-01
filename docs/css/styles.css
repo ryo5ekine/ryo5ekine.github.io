@@ -33,16 +33,16 @@ p {
 }
 
 h1 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 h2 {
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     
 }
 
 p {
-    font-size: 1.0rem;
+    font-size: 0.8rem;
 }
 
 .white-font {
@@ -318,7 +318,7 @@ video {
 #trailer-page a {
     display: inline-block;
     margin-top: 1vh;
-    font-size: 0.6rem;
+    font-size: 0.4rem;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
     text-decoration: underline;
@@ -339,7 +339,7 @@ video {
 story-1
 ================================================ */
 .story-1 p {
-    font-size: 1.2rem;
+    font-size: 1.0rem;
 }
 
 .narrow-section {
@@ -456,14 +456,13 @@ author-page
 
 .author-profile-font {
     margin: 2.5vh 0;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
 }
 
 .author-profile-font span {
     display: inline-block;
     margin: 1vh auto;
     font-size: 1.6rem;
-    letter-spacing: 1.0rem;
     text-indent: 1.0rem;
 }
 
