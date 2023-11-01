@@ -18,9 +18,9 @@ html {
 }
 body {
 	color: var(--offblack);
-    font-family: Palatino, sans-serif;
+    font-family: Didot, sans-serif;
     font-weight: 400;
-    font-style: normal;
+    font-style: italic;
     position: relative;
 }
 
@@ -33,16 +33,16 @@ p {
 }
 
 h1 {
-    font-size: 1.2rem;
+    font-size: 32px;
 }
 
 h2 {
-    font-size: 1.0rem;
+    font-size: 28rem;
     
 }
 
 p {
-    font-size: 0.8rem;
+    font-size: 24rem;
 }
 
 .white-font {
@@ -318,7 +318,7 @@ video {
 #trailer-page a {
     display: inline-block;
     margin-top: 1vh;
-    font-size: 0.4rem;
+    font-size: 16px;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
     text-decoration: underline;
@@ -339,7 +339,7 @@ video {
 story-1
 ================================================ */
 .story-1 p {
-    font-size: 1.0rem;
+    font-size: 24px;
 }
 
 .narrow-section {
@@ -401,7 +401,7 @@ last-story
 .title-and-booth a {
     display: inline-block;
     margin-top: 5vh;
-    font-size: 1rem;
+    font-size: 28px;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
 }
@@ -456,14 +456,13 @@ author-page
 
 .author-profile-font {
     margin: 2.5vh 0;
-    font-size: 0.6rem;
+    font-size: 16px;
 }
 
 .author-profile-font span {
     display: inline-block;
     margin: 1vh auto;
-    font-size: 1.6rem;
-    text-indent: 1.0rem;
+    font-size: 32px;
 }
 
 .credit {
@@ -475,7 +474,7 @@ author-page
     font-family: highgate, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 0.6dyrem;
+    font-size: 12px;
 }
 
 .contact a {
