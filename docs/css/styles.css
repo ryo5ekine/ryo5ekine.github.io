@@ -18,17 +18,17 @@ html {
 }
 body {
 	color: var(--offblack);
-    font-family: Didot, sans-serif;
-    font-weight: 400;
-    font-style: italic;
-    position: relative;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+     	font-style: italic;
+    	position: relative;
 }
 
 h1,
 h2,
 p {
     text-align: center;
-    line-height: 1.5rem;
+    line-height: 1.4rem;
     letter-spacing: 0.08rem;
 }
 
@@ -42,7 +42,7 @@ h2 {
 }
 
 p {
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .white-font {
@@ -461,7 +461,6 @@ author-page
 
 .author-profile-font span {
     display: inline-block;
-    margin: 1vh auto;
     font-size: 32px;
 }
 
@@ -775,7 +774,7 @@ PC
     }
     
     p {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
 
     img,
@@ -814,7 +813,6 @@ PC
     .author-profile-font span {
         margin: 1vh auto;
         font-size: 2.4rem;
-        letter-spacing: 1.8rem;
         text-indent: 1.8rem;
     }
     
